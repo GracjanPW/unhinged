@@ -3,7 +3,7 @@
   const pub = qs.get('public_key')
   const err = qs.get('errorMessage')
   // change this to your local Expo dev URL
-  const expoURL = 'exp://10.0.10.199:8081/--/onConnect'
+  const expoURL = 'exp://10.0.10.199:8081/--/(tabs)/settings'
   const target = pub
     ? `${expoURL}?public_key=${pub}`
     : `${expoURL}?errorMessage=${err}`
